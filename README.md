@@ -122,7 +122,7 @@ User can monitor the training process from the dashboard. Our platform will auto
 
 MIT License
 
-Copyright (c) 2023 Jan-Philipp Benecke
+Copyright (c) 2025 Data science labs at Dong-A University
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
