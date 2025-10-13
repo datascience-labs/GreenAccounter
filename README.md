@@ -1,3 +1,11 @@
+---
+layout: project
+title: GreenAccounter/
+project: GreenAccounter
+repo: datascience-labs/GreenAccounter
+permalink: /:path/:basename:output_ext
+---
+
 # Green Accounting Platform
 
 Green Accounting Platform is a web carbon management system on a multi-cloud environment. The Green Accounting Platform moves the deep learning training workloads from the location with high carbon intensity to the location with low carbon intensity. Our platform reduces carbon emissions of the deep learning training workloads in geo-distributed clouds while providing fault-tolerant controls.
@@ -83,21 +91,19 @@ This is the dashboard of our platform. The dashboard contains the following comp
 ---
 
 ## Installation and Setup
+--- 
 ### Prerequisities: Connect the github to the cloud services that can build the pipeline and deploy the service with docker and kubernetes
 For the cloud service, we have utilized the naver cloud to connect our code to the CI/CD process. You can use any cloud service, as long as it can get the code input as a trigger and use yaml file for the CI/CD process with the docker and kubernetes. Please check our workflow files from each git branches and git actions. The deployment of four backend branches should be preceded before the frontend branch in the cloud service. Once you build the deployment pipeline in that order, the rest of process will be automated with the yaml file in `.github/workflows`. 
 
 ### ssh data file for the test in cloud environment
 To test our platform in the cloud environment, you need `ssh_data.csv` file as the following format:
+
 |IP Address of Cloud Server|Username|Password|Port|Country Code|Country Name|
 |-----------------|----------|--------|----|------|---|
 |x.x.x.x|GreenAccountingPlatform|1234|10002|KR|Korea|
 
 ### Training the deep learning in the docker container
-Once you deploy our platform in the cloud service, you can access to the terminal and start training.
-> **For example, you may use the following command to train VGGNet deep learning model:**
-```bash
-$ docker run -it --gpus all python3 VGGNet/train.py --epoch 100 --lr 0.001 --batch 8 --vgg_model VGG16 --cuda 0 --step_size 30 --gamma 0.1 --resumption 0 --ssh_server 0 --threshold 250 
-```
+Once you deploy our platform in the cloud service, you can access to the terminal and start training.  
 User can monitor the training process from the dashboard. Our platform will automatically migrate the training once it violates the threshold. Our platform will find the appropriate candidates from the registered cloud services.
 
 ### Role of each branch
