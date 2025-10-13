@@ -1,11 +1,3 @@
----
-layout: project
-title: GreenAccounter/
-project: GreenAccounter
-repo: datascience-labs/GreenAccounter
-permalink: /:path/:basename:output_ext
----
-
 # Green Accounting Platform
 
 Green Accounting Platform is a web carbon management system on a multi-cloud environment. The Green Accounting Platform moves the deep learning training workloads from the location with high carbon intensity to the location with low carbon intensity. Our platform reduces carbon emissions of the deep learning training workloads in geo-distributed clouds while providing fault-tolerant controls.
