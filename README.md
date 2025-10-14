@@ -19,36 +19,36 @@ Green Accounting Platform works in a mini-batch manner and has the following mai
 Tools and libraries used on Modules:  
 
 Service Mesh  
-- Istio: manage the communication between microservices
-- Kiali: monitor and visualize the service mesh
+- Manage the communication between microservices
+- Monitor and visualize the service mesh
 
 Remote Connection  
-- SSH: integrate the management of multiple clouds
+- Integrate the management of multiple clouds
 
 Carbon Intensity  
-- Electricity Maps: trace the worldwide carbon intensity
+- Trace the worldwide carbon intensity
 
 CI/CD Pipeline
-- Github, Git, Actions: protect the source code with a private repository & control the version & configure the automated workflow
-- NCLOUD DevOps: build the pipeline using cloud service & manage the deployment process
+- Protect the source code with a private repository & control the version & configure the automated workflow
+- Build the pipeline using cloud service & manage the deployment process
 
 Database
-- Firebase Service: save and synchronize a large amount of real-time data safely
+- Save and synchronize a large amount of real-time data safely
 
 Container Orchestration
-- Docker, Kubernetes: containerize the service to deploy and run independently
+- Containerize the service to deploy and run independently
 
 Monitoring
-- JAEGER: trace the flow of service demand 
-- Grafana: monitor system performance
-- Glances: manage the overall server status
+- Trace the flow of service demand 
+- Monitor system performance
+- Manage the overall server status
 
 Dashboard Configuration
-- React, JS, HTML, CSS: build an interactive dashboard
+- Build an interactive dashboard
 
 Data Processing
-- Pandas, Numpy: analyze & calculate the data
-- Psutil, Dataprep: monitor the system performance & preprocess the data
+- Analyze & calculate the data
+- Monitor the system performance & preprocess the data
 
 ---
 
@@ -100,7 +100,7 @@ Once you deploy our platform in the cloud service, you can access to the termina
 User can monitor the training process from the dashboard. Our platform will automatically migrate the training once it violates the threshold. Our platform will find the appropriate candidates from the registered cloud services.
 
 ### Role of each branch
-1. deploy-main
+1. main
     - Synchronize all branches for the deployment on the cloud service
     - Trigger the git action whenever the commit command happens in any branch  
 2. backend-connection
