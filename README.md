@@ -57,28 +57,29 @@ Data Processing
 
 This is the dashboard of our platform. The dashboard contains the following components:
 1. Real-time carbon intensity
-    - Display the real-time carbon intensity of currently connected clouds
+    - Real-time carbon intensity trends are displayed as time-series graphs for each connected cloud region
    
 2. Carbon intensity map
-    - Visualize the worldwide carbon intensity on the map
+    -  A global map visualizes regional carbon intensity through color-coded distribution
 
 3. Training information
-    - Display the learning process of training the deep learning
+    -  Training status, progress, cumulative training time, and migration event logs are provided for workload monitoring
 
 4. Carbon & Power impact
-    - Display the cumulative carbon emission and power used by training the deep learning
+    - Cumulative carbon emissions and total power consumption are reported as numerical indicators
+    - Their corresponding environmental impact is also provided
 
 5. Hardware usage in each cloud
-    - Display the hardware information of the currently working cloud along with the resource usage status
+    - Resource utilization of CPU, GPU, and memory is visualized along with hardware specifications for each cloud
 
 6. Carbon emissions
-    - Visualize the carbon emission from the training process
+    - Real-time carbon emissions of connected clouds are presented as time-series graphs
 
 7. Terminal
-    - Access to the currently used cloud for detailed information and manual commands
+    - A terminal connection button enables remote control of each cloud instance from the dashboard
 
-8. Detailed pages
-    - Display more detailed information from the main dashboard
+8. Navigation panel
+    -  A navigation panel provides access to reports on cloud status, carbon emissions, and resource usage
 
 ---
 
