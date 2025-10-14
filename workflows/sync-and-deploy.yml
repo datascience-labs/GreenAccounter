@@ -21,15 +21,15 @@ jobs:
       - name: Set YAML file path based on branch
         id: set_path
         run: |
-          if [[ "${GITHUB_REF_NAME}" == "back" ]]; then
+          if [[ "${GITHUB_REF_NAME}" == "backend-connection" ]]; then
             echo "YAML_PATH=back.yaml" >> $GITHUB_ENV
-          elif [[ "${GITHUB_REF_NAME}" == "back1" ]]; then
+          elif [[ "${GITHUB_REF_NAME}" == "backend-monitor-server" ]]; then
             echo "YAML_PATH=back.yaml" >> $GITHUB_ENV
-          elif [[ "${GITHUB_REF_NAME}" == "back2" ]]; then
+          elif [[ "${GITHUB_REF_NAME}" == "backend-monitor-carbon" ]]; then
             echo "YAML_PATH=back.yaml" >> $GITHUB_ENV
-          elif [[ "${GITHUB_REF_NAME}" == "back3" ]]; then
+          elif [[ "${GITHUB_REF_NAME}" == "backend-orchestrator" ]]; then
             echo "YAML_PATH=back.yaml" >> $GITHUB_ENV
-          elif [[ "${GITHUB_REF_NAME}" == "front" ]]; then
+          elif [[ "${GITHUB_REF_NAME}" == "frontend-gateway" ]]; then
             echo "YAML_PATH=front.yaml" >> $GITHUB_ENV
           fi
           echo "YAML_PATH is: ${YAML_PATH}"
