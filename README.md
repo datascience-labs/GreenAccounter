@@ -100,19 +100,19 @@ Once you deploy our platform in the cloud service, you can access to the termina
 User can monitor the training process from the dashboard. Our platform will automatically migrate the training once it violates the threshold. Our platform will find the appropriate candidates from the registered cloud services.
 
 ### Role of each branch
-1. main
+1. deploy-main
     - Synchronize all branches for the deployment on the cloud service
     - Trigger the git action whenever the commit command happens in any branch  
-2. back
+2. backend-connection
     - Connect the cloud servers to our platform with ssh service
     - Register the cloud servers for the migration
-3. back1
+3. backend-monitor-server
     - Monitor the cloud server resources
-4. back2
+4. backend-monitor-carbon
     - Monitor the carbon intensity
-5. back3
+5. backend-orchestrator
     - Orchestrate the migration process
-6. front
+6. frontend-gateway
     - Manage the communication among the micro services from all four backend branches internally
     - Manage the access from the user to our platform through kubernetes load balancer and NGINX-Ingress Service
 
