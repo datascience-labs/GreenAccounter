@@ -1,0 +1,230 @@
+{
+  "ARE": {
+      "id": "AE",
+      "full_name": "United Arab Emirates"
+  },
+  "ARG": {
+      "id": "AR",
+      "full_name": "Argentina"
+  },
+  "AUS": {
+      "id": "AU",
+      "full_name": "Australia"
+  },
+  "AUT": {
+      "id": "AT",
+      "full_name": "Austria"
+  },
+  "BEL": {
+      "id": "BE",
+      "full_name": "Belgium"
+  },
+  "BGD": {
+      "id": "BD",
+      "full_name": "Bangladesh"
+  },
+  "BRA": {
+      "id": "BR",
+      "full_name": "Brazil"
+  },
+  "CAN": {
+      "id": "CA-YT",
+      "full_name": "Canada"
+  },
+  "CHE": {
+      "id": "CH",
+      "full_name": "Switzerland"
+  },
+  "COL": {
+      "id": "CO",
+      "full_name": "Colombia"
+  },
+  "CYP": {
+      "id": "CY",
+      "full_name": "Cyprus"
+  },
+  "DEU": {
+      "id": "DE",
+      "full_name": "Germany"
+  },
+  "DNK": {
+      "id": "DK",
+      "full_name": "Denmark"
+  },
+  "ESP": {
+      "id": "ES",
+      "full_name": "Spain"
+  },
+  "FIN": {
+      "id": "FI",
+      "full_name": "Finland"
+  },
+  "FRA": {
+      "id": "FR",
+      "full_name": "France"
+  },
+  "GBR": {
+      "id": "GB",
+      "full_name": "United Kingdom"
+  },
+  "GRC": {
+      "id": "GR",
+      "full_name": "Greece"
+  },
+  "ISL": {
+      "id": "IS",
+      "full_name": "Iceland"
+  },
+  "ISR": {
+      "id": "IL",
+      "full_name": "Israel"
+  },
+  "ITA": {
+      "id": "IT",
+      "full_name": "Italy"
+  },
+  "KOR": {
+      "id": "KR",
+      "full_name": "Korea"
+  },
+  "LKA": {
+      "id": "LK",
+      "full_name": "Sri Lanka"
+  },
+  "LTU": {
+      "id": "LT",
+      "full_name": "Lithuania"
+  },
+  "LUX": {
+      "id": "LU",
+      "full_name": "Luxembourg"
+  },
+  "LVA": {
+      "id": "LV",
+      "full_name": "Latvia"
+  },
+  "NIC": {
+      "id": "NI",
+      "full_name": "Nicaragua"
+  },
+  "NZL": {
+      "id": "NZ",
+      "full_name": "New Zealand"
+  },
+  "OMN": {
+      "id": "OM",
+      "full_name": "Oman"
+  },
+  "PAN": {
+      "id": "PA",
+      "full_name": "Panama"
+  },
+  "PER": {
+      "id": "PE",
+      "full_name": "Peru"
+  },
+  "PHL": {
+      "id": "PH",
+      "full_name": "Philippines"
+  },
+  "SWE": {
+      "id": "SE",
+      "full_name": "Sweden"
+  },
+  "THA": {
+      "id": "TH",
+      "full_name": "Thailand"
+  },
+  "TUR": {
+      "id": "TR",
+      "full_name": "Turkey"
+  },
+  "URY": {
+      "id": "UY",
+      "full_name": "Uruguay"
+  },
+  "ZAF": {
+      "id": "ZA",
+      "full_name": "South Africa"
+  },
+  "POL": {
+      "id": "PL",
+      "full_name": "Poland"
+  },
+  "IRL": {
+      "id": "IE",
+      "full_name": "Ireland"
+  },
+  "NLD": {
+      "id": "NL",
+      "full_name": "Netherlands"
+  },
+  "CZE": {
+      "id": "CZ",
+      "full_name": "Czech Rep."
+  },
+  "SVK": {
+      "id": "SK",
+      "full_name": "Slovakia"
+  },
+  "NOR": {
+      "id": "NO",
+      "full_name": "Norway"
+  },
+  "EST": {
+      "id": "EE",
+      "full_name": "Estonia"
+  },
+  "MDA": {
+      "id": "MD",
+      "full_name": "Moldova"
+  },
+  "ROU": {
+      "id": "RO",
+      "full_name": "Romania"
+  },
+  "HUN": {
+      "id": "HU",
+      "full_name": "Hungary"
+  },
+  "HRV": {
+      "id": "HR",
+      "full_name": "Croatia"
+  },
+  "BIH": {
+      "id": "BA",
+      "full_name": "Bosnia and Herz."
+  },
+  "SVN": {
+      "id": "SI",
+      "full_name": "Slovenia"
+  },
+  "SRB": {
+      "id": "RS",
+      "full_name": "Serbia"
+  },
+  "BGR": {
+      "id": "BG",
+      "full_name": "Bulgaria"
+  },
+  "MKD": {
+      "id": "MK",
+      "full_name": "Macedonia"
+  },
+  "PRT": {
+      "id": "PT",
+      "full_name": "Portugal"
+  },
+  "USA": {
+      "id": "US-NE-ISNE",
+      "full_name": "USA"
+  },
+  "UK":{
+    "id": "GB",
+    "full_name":"UK"
+  },
+  "JPN":{
+    "id": "JP",
+    "full_name":"Japan"
+  }
+}

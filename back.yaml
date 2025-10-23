@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-ci-deployment
+spec:
+  selector:
+    matchLabels: 
+      app: flask-ci
+  replicas: 1
+  template:
+    metadata: 
+      labels:
+        app: flask-ci
+    spec:
+      nodeSelector:
+        kubernetes.io/hostname: contest22-node-w-54b5
+      containers:
+      - name: flask-ci-container
+        image: greenaccounter.kr.ncr.ntruss.com/back2:latest
+        imagePullPolicy: Always
+        ports: 
+        - containerPort: 10002
+      imagePullSecrets:
+      - name: regcred 
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-ci-service
+spec:
+  type: ClusterIP
+  ports:
+  - port: 10002 # 서비스의 클러스터IP port
+    targetPort: 10002 # 서비스 아래의 컨테이너 port
+    protocol: TCP
+  selector: 
+    app: flask-ci
