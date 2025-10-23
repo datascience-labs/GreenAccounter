@@ -142,8 +142,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.  
 
 ---
-## Contact
-E-mail: jeonghyeon.park@datasciencelabs.org	
 
 
 
