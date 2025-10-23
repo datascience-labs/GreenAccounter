@@ -1,0 +1,4 @@
+cloud_ip_addr,user_name,password,port,country,country_full,key_path
+X.X.X.X,GreenAccountingPlatform,1234,777,us-central1-a,United States of America,/rsa_keys/id_rsaa
+
+
