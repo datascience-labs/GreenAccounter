@@ -1113,6 +1113,8 @@ http://localhost/
 - **Firebase errors:** Verify Firebase configuration and credentials
 
 
+**This repository is intended for demonstration purposes only.**
+
 <div align="left"><a href="#top">⬆ Return</a></div>
 
 ---
