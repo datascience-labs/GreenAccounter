@@ -1112,6 +1112,11 @@ http://localhost/
 - **API errors:** Ensure ElectricityMaps API key is valid
 - **Firebase errors:** Verify Firebase configuration and credentials
 
+---
+### 🎥 Demo Video
+**[Check out the demo!](https://github.com/datascience-labs/GreenAccounter/raw/refs/heads/main/GreenAccounter%20Demo%20Video.mp4)**  
+Watch the video below to see GreenAccounter in action.   
+
 
 **This repository is intended for demonstration purposes only.**
 
