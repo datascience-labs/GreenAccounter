@@ -1114,6 +1114,8 @@ http://localhost/
 
 ---
 ### 🎥 Demo Video
+<p align="left"><strong>Watch the demo in action!</strong></p>  
+
 **[Check out the demo!](https://github.com/datascience-labs/GreenAccounter/raw/refs/heads/main/GreenAccounter%20Demo%20Video.mp4)**  
 
 
