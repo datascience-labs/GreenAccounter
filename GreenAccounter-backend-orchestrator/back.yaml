@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-mgnt-deployment
+spec:
+  selector:
+    matchLabels: 
+      app: flask-mgnt
+  replicas: 1
+  template:
+    metadata: 
+      labels:
+        app: flask-mgnt
+    spec:
+      containers:
+      - name: flask-mgnt-container
+        image: back3
+        imagePullPolicy: IfNotPresent
+        ports: 
+        - containerPort: 10003
+      imagePullSecrets:
+      - name: regcred 
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-mgnt-service
+spec:
+  type: ClusterIP
+  ports:
+  - port: 10003 # 서비스의 클러스터IP port
+    targetPort: 10003 # 서비스 아래의 컨테이너 port
+    protocol: TCP
+  selector: 
+    app: flask-mgnt

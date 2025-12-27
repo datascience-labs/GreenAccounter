@@ -1,0 +1,90 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-deployment 
+spec:
+  selector:
+    matchLabels: 
+      app: react
+  replicas: 3
+  template:
+    metadata: 
+      labels:
+        app: react
+    spec:
+      containers:
+      - name: react-container
+        image: front
+        imagePullPolicy: IfNotPresent
+        ports: 
+        - containerPort: 80
+      imagePullSecrets:
+      - name: regcred
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: react-service
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80 # 서비스의 클러스터IP port
+    targetPort: 80 # 컨테이너 port
+    protocol: TCP
+    name: http
+  selector:
+    app: react
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: react-ingress
+  annotations:
+    kubernetes.io/ingress.class: nginx
+spec:
+  ingressClassName: nginx
+  rules:
+  - http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: react-service
+            port:
+              number: 80
+      - path: /form
+        pathType: Prefix
+        backend:
+          service:
+            name: react-service
+            port:
+              number: 80
+      - path: /api
+        pathType: Prefix
+        backend:
+          service:
+            name: flask-api-service
+            port:
+              number: 10000
+      - path: /ci
+        pathType: Prefix
+        backend:
+          service:
+            name: flask-ci-service
+            port:
+              number: 10002
+      - path: /res
+        pathType: Prefix
+        backend:
+          service:
+            name: flask-res-service
+            port:
+              number: 10001
+      - path: /mgnt
+        pathType: Prefix
+        backend:
+          service:
+            name: flask-mgnt-service
+            port:
+              number: 10003

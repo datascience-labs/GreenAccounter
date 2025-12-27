@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-api-deployment
+spec:
+  selector:
+    matchLabels: 
+      app: flask-api
+  replicas: 1
+  template:
+    metadata: 
+      labels:
+        app: flask-api
+    spec:
+      containers:
+      - name: flask-api-container
+        image: back
+        imagePullPolicy: IfNotPresent
+        ports: 
+        - containerPort: 10000
+      imagePullSecrets:
+      - name: regcred  # This refers to the secret you created
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-api-service
+spec:
+  type: ClusterIP
+  ports:
+  - port: 10000
+    targetPort: 10000
+    protocol: TCP
+  selector: 
+    app: flask-api

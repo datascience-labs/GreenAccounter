@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-res-deployment
+spec:
+  selector:
+    matchLabels: 
+      app: flask-res
+  replicas: 1
+  template:
+    metadata: 
+      labels:
+        app: flask-res
+    spec:
+      containers:
+      - name: flask-res-container
+        image: back1
+        imagePullPolicy: IfNotPresent
+        ports: 
+        - containerPort: 10001
+      imagePullSecrets:
+      - name: regcred 
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-res-service
+spec:
+  type: ClusterIP
+  ports:
+  - port: 10001 # 서비스의 클러스터IP port
+    targetPort: 10001 # 서비스 아래의 컨테이너 port
+    protocol: TCP
+  selector: 
+    app: flask-res

@@ -1,0 +1,12 @@
+pandas
+numpy
+psutil
+argparse
+firebase-admin
+asyncio
+flask
+flask-cors
+aioelectricitymaps
+paramiko
+geopandas
+python-dotenv
