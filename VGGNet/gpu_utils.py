@@ -128,7 +128,7 @@ class GPUs:
         epoch = self.epoch
         learning_time = time.time() - self.learning_time
         use_gpu = float(gpus) if gpus != 0.0 else 0.0 # 5초마다
-        self.used_gpu.append((use_gpu / (60.0 * 12.0)))
+        self.used_gpu.append(use_gpu)
         emission = self.calculate_carbons_emission(use_gpu)
         self.carbon_emissions.append(emission)
         self._fb.upload_current_resource(round(cpus, 2), round(memorys, 2), round(total_memorys, 2), gpus, sum(self.used_gpu), epoch, clock, max_clock, learning_time+self.learned_time, sum(self.carbon_emissions), self._carbons, self.epoch_no)
@@ -145,7 +145,6 @@ class GPUs:
     
     def calculate_carbons_emission(self, used_gpus):
         if self._carbons != None:
-            # Carbons Emissions = Carbons Intensity * Electricity / 5s 기준 계싼 
             # Carbon Emissions(gCO2eq) = Carbon Intensity(gCO2eq/kWh) * used_gpu(kWh) ==> usedGPU is Wh. used_gpu(kWh) = used(Wh) * (1 / 1000.0)
             carbon_emission = (self._cal_carbon * used_gpus) / (60.0 * 12.0)
             return carbon_emission
