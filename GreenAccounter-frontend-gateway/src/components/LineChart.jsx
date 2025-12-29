@@ -85,7 +85,7 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
       xScale={{ type: 'linear', min: 0, max: 'auto' }}
       yScale={{
         type: 'linear',
-        min: 'auto',
+        min: 0,
         max: 'auto',
         stacked: false,
         reverse: false
@@ -99,7 +99,7 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        tickValues: [0,1,2,3,4,5,6,8,9,10,11,12,13,14,15, 16,17,18,19, 20,21,22, 23],
+        tickValues: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19, 20,21,22,23],
         legend: isDashboard ? undefined : 'Time (Hours)',
         legendOffset: 36,
         legendPosition: 'middle'
