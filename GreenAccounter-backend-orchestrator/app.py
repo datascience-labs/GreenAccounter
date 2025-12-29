@@ -75,20 +75,11 @@ def get_resource5():
     
     dest = None
     if is_migration and not migration_progress:
-        thresholds = get_thresholds()
-        candidates = [
-            ["US", us_ci, thresholds[0]],
-            ["IT-CSO", uk_ci, thresholds[1]],
-            ["KR", kr_ci, thresholds[2]]
-        ]
-        for candidate in candidates:
-            gap = candidate[2] - candidate[1]
-            candidate.append(gap)
-        candidates.sort(key = lambda x:x[3], reverse=True)
+        candidates = [["IT-CSO", uk_ci], ["US", us_ci], ["KR", kr_ci]] 
+        candidates.sort(key = lambda x:x[1])
         best_region = candidates[0][0]
         best_ci = candidates[0][1]
-        best_gap = candidates[0][3]
-        print(f"Best region: {best_region}, CI: {best_ci}, Gap: {best_gap}")
+        print(f"Best region: {best_region}, CI: {best_ci}")
         if best_region == 'US': # migration , server 0 
             dest = "US"
             migration_start(best_region, fb, ssh_us, 0, 'United States of America')
@@ -98,7 +89,6 @@ def get_resource5():
         elif best_region == 'KR':# server 2 
             dest = "KR"
             migration_start(best_region, fb, ssh_kr, 2, 'South Korea')
-    
         
     return jsonify({
         "migration" : is_migration, # False ==> 학습 x, True 학습 o 
