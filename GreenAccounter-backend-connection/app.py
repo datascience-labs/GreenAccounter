@@ -39,7 +39,7 @@ def test_migration_file():
 def parser_save(command, region):
     global fb, total_epoch
     try:
-        li = command.split("python3")
+        li = command.split("all")
         li = [l.strip() for l in li]
         parsers = li[1].split(" ")[1:]
         parser = dict()
