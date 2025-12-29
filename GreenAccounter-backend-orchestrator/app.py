@@ -11,6 +11,7 @@ from eletricmaps import electric
 from utils import *
 sys.path.append("./")
 from DB_Module import FireBase
+import time
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -48,6 +49,7 @@ def migration_start(region, fb, ssh_instance, server_num, region_full,):
     fb.upload_parser(parser)
     command = f"docker start {region}"
     ssh_instance.exec(command)
+    time.sleep(120)
     # 여기서 migration 파일 upload 
     fb.upload_migration(False, False, True, region, region_full)
 
