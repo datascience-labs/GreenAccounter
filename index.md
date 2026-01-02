@@ -5,6 +5,7 @@ project: GreenAccounter
 repo: datascience-labs/GreenAccounter
 permalink: /:path/:basename:output_ext
 ---
+
 <div id="top" markdown="1">
 
 <div align="center" markdown="1">
