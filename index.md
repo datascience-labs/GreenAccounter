@@ -1,3 +1,11 @@
+---
+layout: project
+title: GreenAccounter/
+project: GreenAccounter
+repo: datascience-labs/GreenAccounter
+permalink: /:path/:basename:output_ext
+---
+
 <div id="top">
 
 <!-- HEADER STYLE: CLASSIC -->
