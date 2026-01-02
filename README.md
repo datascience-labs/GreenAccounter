@@ -6,12 +6,14 @@
 
 # GREENACCOUNTER
 
+
 <em>Empowering Sustainable Innovation Through Intelligent Monitoring</em>
 
 <!-- BADGES -->
 <img src="https://img.shields.io/github/last-commit/jhparkland/GreenAccounter?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 <img src="https://img.shields.io/github/languages/top/jhparkland/GreenAccounter?style=flat&color=0080ff" alt="repo-top-language">
 <img src="https://img.shields.io/github/languages/count/jhparkland/GreenAccounter?style=flat&color=0080ff" alt="repo-language-count">
+<a href="https://doi.org/10.5281/zenodo.18067275"><img src="https://zenodo.org/badge/1048178606.svg" alt="DOI"></a>
 
 <em>Built with the tools and technologies:</em>
 
