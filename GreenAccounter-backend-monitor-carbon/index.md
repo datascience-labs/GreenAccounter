@@ -7,4 +7,4 @@ permalink: /:path/:basename:output_ext
 ---
 
 
-is branch monitors the carbon intensity.
+This branch monitors the carbon intensity.

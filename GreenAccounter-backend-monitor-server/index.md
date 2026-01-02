@@ -7,4 +7,4 @@ permalink: /:path/:basename:output_ext
 ---
 
 
-is branch monitors the user's cloud servers registered on our platform.
+This branch monitors the user's cloud servers registered on our platform.

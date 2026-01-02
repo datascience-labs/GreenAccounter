@@ -7,5 +7,5 @@ permalink: /:path/:basename:output_ext
 ---
 
 
-is branch orchestrates the entire migration process.
+This branch orchestrates the entire migration process.
 

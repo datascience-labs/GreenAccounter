@@ -7,4 +7,4 @@ permalink: /:path/:basename:output_ext
 ---
 
 
-is branch connects the cloud servers to our platform.
+This branch connects the cloud servers to our platform.
