@@ -6,4 +6,5 @@ repo: datascience-labs/GreenAccounter
 permalink: /:path/:basename:output_ext
 ---
 
-This branch monitors the carbon intensity.
+
+is branch monitors the carbon intensity.

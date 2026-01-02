@@ -6,4 +6,5 @@ repo: datascience-labs/GreenAccounter
 permalink: /:path/:basename:output_ext
 ---
 
-This branch connects the cloud servers to our platform.
+
+is branch connects the cloud servers to our platform.

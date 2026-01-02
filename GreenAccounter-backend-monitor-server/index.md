@@ -6,4 +6,5 @@ repo: datascience-labs/GreenAccounter
 permalink: /:path/:basename:output_ext
 ---
 
-This branch monitors the user's cloud servers registered on our platform.
+
+is branch monitors the user's cloud servers registered on our platform.
