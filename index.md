@@ -120,7 +120,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 		<summary><b>__root__</b></summary>
 		<blockquote>
 			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b> __root__</b></code>
+				<code><b>⦿ __root__</b></code>
 			<table style='width: 100%; border-collapse: collapse;'>
 			<thead>
 				<tr style='background-color: #f8f9fa;'>
@@ -156,7 +156,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 		<summary><b>GreenAccounter-backend-connection</b></summary>
 		<blockquote>
 			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b> GreenAccounter-backend-connection</b></code>
+				<code><b>⦿ GreenAccounter-backend-connection</b></code>
 			<table style='width: 100%; border-collapse: collapse;'>
 			<thead>
 				<tr style='background-color: #f8f9fa;'>
@@ -210,7 +210,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 				<summary><b>rsa_keys</b></summary>
 				<blockquote>
 					<div class='directory-path' style='padding: 8px 0; color: #666;'>
-						<code><b> GreenAccounter-backend-connection.rsa_keys</b></code>
+						<code><b>⦿ GreenAccounter-backend-connection.rsa_keys</b></code>
 					<table style='width: 100%; border-collapse: collapse;'>
 					<thead>
 						<tr style='background-color: #f8f9fa;'>
@@ -232,7 +232,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 		<summary><b>GreenAccounter-frontend-gateway</b></summary>
 		<blockquote>
 			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b> GreenAccounter-frontend-gateway</b></code>
+				<code><b>⦿ GreenAccounter-frontend-gateway</b></code>
 			<table style='width: 100%; border-collapse: collapse;'>
 			<thead>
 				<tr style='background-color: #f8f9fa;'>
@@ -270,7 +270,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 				<summary><b>src</b></summary>
 				<blockquote>
 					<div class='directory-path' style='padding: 8px 0; color: #666;'>
-						<code><b> GreenAccounter-frontend-gateway.src</b></code>
+						<code><b>⦿ GreenAccounter-frontend-gateway.src</b></code>
 					<table style='width: 100%; border-collapse: collapse;'>
 					<thead>
 						<tr style='background-color: #f8f9fa;'>
@@ -300,7 +300,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 						<summary><b>components</b></summary>
 						<blockquote>
 							<div class='directory-path' style='padding: 8px 0; color: #666;'>
-								<code><b> GreenAccounter-frontend-gateway.src.components</b></code>
+								<code><b>⦿ GreenAccounter-frontend-gateway.src.components</b></code>
 							<table style='width: 100%; border-collapse: collapse;'>
 							<thead>
 								<tr style='background-color: #f8f9fa;'>
@@ -372,13 +372,13 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 						<summary><b>scenes</b></summary>
 						<blockquote>
 							<div class='directory-path' style='padding: 8px 0; color: #666;'>
-								<code><b> GreenAccounter-frontend-gateway.src.scenes</b></code>
+								<code><b>⦿ GreenAccounter-frontend-gateway.src.scenes</b></code>
 							<!-- team Submodule -->
 							<details>
 								<summary><b>team</b></summary>
 								<blockquote>
 									<div class='directory-path' style='padding: 8px 0; color: #666;'>
-										<code><b> GreenAccounter-frontend-gateway.src.scenes.team</b></code>
+										<code><b>⦿ GreenAccounter-frontend-gateway.src.scenes.team</b></code>
 									<table style='width: 100%; border-collapse: collapse;'>
 									<thead>
 										<tr style='background-color: #f8f9fa;'>
@@ -398,7 +398,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 								<summary><b>pie</b></summary>
 								<blockquote>
 									<div class='directory-path' style='padding: 8px 0; color: #666;'>
-										<code><b> GreenAccounter-frontend-gateway.src.scenes.pie</b></code>
+										<code><b>⦿ GreenAccounter-frontend-gateway.src.scenes.pie</b></code>
 									<table style='width: 100%; border-collapse: collapse;'>
 									<thead>
 										<tr style='background-color: #f8f9fa;'>
@@ -418,7 +418,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 								<summary><b>bar</b></summary>
 								<blockquote>
 									<div class='directory-path' style='padding: 8px 0; color: #666;'>
-										<code><b> GreenAccounter-frontend-gateway.src.scenes.bar</b></code>
+										<code><b>⦿ GreenAccounter-frontend-gateway.src.scenes.bar</b></code>
 									<table style='width: 100%; border-collapse: collapse;'>
 									<thead>
 										<tr style='background-color: #f8f9fa;'>
@@ -438,7 +438,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 								<summary><b>contacts</b></summary>
 								<blockquote>
 									<div class='directory-path' style='padding: 8px 0; color: #666;'>
-										<code><b> GreenAccounter-frontend-gateway.src.scenes.contacts</b></code>
+										<code><b>⦿ GreenAccounter-frontend-gateway.src.scenes.contacts</b></code>
 									<table style='width: 100%; border-collapse: collapse;'>
 									<thead>
 										<tr style='background-color: #f8f9fa;'>
@@ -458,7 +458,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 								<summary><b>calendar</b></summary>
 								<blockquote>
 									<div class='directory-path' style='padding: 8px 0; color: #666;'>
-										<code><b> GreenAccounter-frontend-gateway.src.scenes.calendar</b></code>
+										<code><b>⦿ GreenAccounter-frontend-gateway.src.scenes.calendar</b></code>
 									<table style='width: 100%; border-collapse: collapse;'>
 									<thead>
 										<tr style='background-color: #f8f9fa;'>
@@ -478,7 +478,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 								<summary><b>form</b></summary>
 								<blockquote>
 									<div class='directory-path' style='padding: 8px 0; color: #666;'>
-										<code><b> GreenAccounter-frontend-gateway.src.scenes.form</b></code>
+										<code><b>⦿ GreenAccounter-frontend-gateway.src.scenes.form</b></code>
 									<table style='width: 100%; border-collapse: collapse;'>
 									<thead>
 										<tr style='background-color: #f8f9fa;'>
@@ -498,7 +498,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 								<summary><b>faq</b></summary>
 								<blockquote>
 									<div class='directory-path' style='padding: 8px 0; color: #666;'>
-										<code><b> GreenAccounter-frontend-gateway.src.scenes.faq</b></code>
+										<code><b>⦿ GreenAccounter-frontend-gateway.src.scenes.faq</b></code>
 									<table style='width: 100%; border-collapse: collapse;'>
 									<thead>
 										<tr style='background-color: #f8f9fa;'>
@@ -518,7 +518,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 								<summary><b>geography</b></summary>
 								<blockquote>
 									<div class='directory-path' style='padding: 8px 0; color: #666;'>
-										<code><b> GreenAccounter-frontend-gateway.src.scenes.geography</b></code>
+										<code><b>⦿ GreenAccounter-frontend-gateway.src.scenes.geography</b></code>
 									<table style='width: 100%; border-collapse: collapse;'>
 									<thead>
 										<tr style='background-color: #f8f9fa;'>
@@ -538,7 +538,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 								<summary><b>line</b></summary>
 								<blockquote>
 									<div class='directory-path' style='padding: 8px 0; color: #666;'>
-										<code><b> GreenAccounter-frontend-gateway.src.scenes.line</b></code>
+										<code><b>⦿ GreenAccounter-frontend-gateway.src.scenes.line</b></code>
 									<table style='width: 100%; border-collapse: collapse;'>
 									<thead>
 										<tr style='background-color: #f8f9fa;'>
@@ -558,7 +558,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 								<summary><b>invoices</b></summary>
 								<blockquote>
 									<div class='directory-path' style='padding: 8px 0; color: #666;'>
-										<code><b> GreenAccounter-frontend-gateway.src.scenes.invoices</b></code>
+										<code><b>⦿ GreenAccounter-frontend-gateway.src.scenes.invoices</b></code>
 									<table style='width: 100%; border-collapse: collapse;'>
 									<thead>
 										<tr style='background-color: #f8f9fa;'>
@@ -578,7 +578,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 								<summary><b>global</b></summary>
 								<blockquote>
 									<div class='directory-path' style='padding: 8px 0; color: #666;'>
-										<code><b> GreenAccounter-frontend-gateway.src.scenes.global</b></code>
+										<code><b>⦿ GreenAccounter-frontend-gateway.src.scenes.global</b></code>
 									<table style='width: 100%; border-collapse: collapse;'>
 									<thead>
 										<tr style='background-color: #f8f9fa;'>
@@ -602,7 +602,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 								<summary><b>dashboard</b></summary>
 								<blockquote>
 									<div class='directory-path' style='padding: 8px 0; color: #666;'>
-										<code><b> GreenAccounter-frontend-gateway.src.scenes.dashboard</b></code>
+										<code><b>⦿ GreenAccounter-frontend-gateway.src.scenes.dashboard</b></code>
 									<table style='width: 100%; border-collapse: collapse;'>
 									<thead>
 										<tr style='background-color: #f8f9fa;'>
@@ -622,7 +622,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 								<summary><b>resourceInfo</b></summary>
 								<blockquote>
 									<div class='directory-path' style='padding: 8px 0; color: #666;'>
-										<code><b> GreenAccounter-frontend-gateway.src.scenes.resourceInfo</b></code>
+										<code><b>⦿ GreenAccounter-frontend-gateway.src.scenes.resourceInfo</b></code>
 									<table style='width: 100%; border-collapse: collapse;'>
 									<thead>
 										<tr style='background-color: #f8f9fa;'>
@@ -648,7 +648,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 		<summary><b>GreenAccounter-backend-orchestrator</b></summary>
 		<blockquote>
 			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b> GreenAccounter-backend-orchestrator</b></code>
+				<code><b>⦿ GreenAccounter-backend-orchestrator</b></code>
 			<table style='width: 100%; border-collapse: collapse;'>
 			<thead>
 				<tr style='background-color: #f8f9fa;'>
@@ -702,7 +702,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 				<summary><b>rsa_keys</b></summary>
 				<blockquote>
 					<div class='directory-path' style='padding: 8px 0; color: #666;'>
-						<code><b> GreenAccounter-backend-orchestrator.rsa_keys</b></code>
+						<code><b>⦿ GreenAccounter-backend-orchestrator.rsa_keys</b></code>
 					<table style='width: 100%; border-collapse: collapse;'>
 					<thead>
 						<tr style='background-color: #f8f9fa;'>
@@ -724,7 +724,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 		<summary><b>GreenAccounter-backend-monitor-server</b></summary>
 		<blockquote>
 			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b> GreenAccounter-backend-monitor-server</b></code>
+				<code><b>⦿ GreenAccounter-backend-monitor-server</b></code>
 			<table style='width: 100%; border-collapse: collapse;'>
 			<thead>
 				<tr style='background-color: #f8f9fa;'>
@@ -778,7 +778,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 				<summary><b>rsa_keys</b></summary>
 				<blockquote>
 					<div class='directory-path' style='padding: 8px 0; color: #666;'>
-						<code><b> GreenAccounter-backend-monitor-server.rsa_keys</b></code>
+						<code><b>⦿ GreenAccounter-backend-monitor-server.rsa_keys</b></code>
 					<table style='width: 100%; border-collapse: collapse;'>
 					<thead>
 						<tr style='background-color: #f8f9fa;'>
@@ -800,7 +800,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 		<summary><b>GreenAccounter-backend-monitor-carbon</b></summary>
 		<blockquote>
 			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b> GreenAccounter-backend-monitor-carbon</b></code>
+				<code><b>⦿ GreenAccounter-backend-monitor-carbon</b></code>
 			<table style='width: 100%; border-collapse: collapse;'>
 			<thead>
 				<tr style='background-color: #f8f9fa;'>
@@ -862,7 +862,7 @@ This project aims to facilitate energy-efficient and environmentally conscious s
 				<summary><b>rsa_keys</b></summary>
 				<blockquote>
 					<div class='directory-path' style='padding: 8px 0; color: #666;'>
-						<code><b> GreenAccounter-backend-monitor-carbon.rsa_keys</b></code>
+						<code><b>⦿ GreenAccounter-backend-monitor-carbon.rsa_keys</b></code>
 					<table style='width: 100%; border-collapse: collapse;'>
 					<thead>
 						<tr style='background-color: #f8f9fa;'>
