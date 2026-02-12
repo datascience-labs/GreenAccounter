@@ -1125,11 +1125,11 @@ http://localhost/
 ---
 
 ### Cite
-> @article{PARK2026102550,
-title = {GreenAccounter: A toolkit for carbon-aware orchestration of deep learning workloads in geo-distributed clouds},
-journal = {SoftwareX},
-volume = {34},
-pages = {102550},
-year = {2026},
-author = {Jeonghyeon Park and Jaekyeong Kim and Wonseok Son and Sejin Chun},
+> @article{PARK2026102550,  
+title = {GreenAccounter: A toolkit for carbon-aware orchestration of deep learning workloads in geo-distributed clouds},  
+journal = {SoftwareX},  
+volume = {34},  
+pages = {102550},  
+year = {2026},  
+author = {Jeonghyeon Park and Jaekyeong Kim and Wonseok Son and Sejin Chun}  
 }
